@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Navigation Bar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    background: rgba(141, 141, 141, 0.726);
+    font-family: "Raleway";
+    padding: 15px 0;
+    z-index: 999;
+}
+
+.logo_univ{
+    width: 300px;
+    float: left;
+}
+
+.menu li a{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-left: 25px;
+    color:#00264c;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a:hover, .menu li a.active{
+    font-size: x-large;
+    color:darkblue;
+    transition: .5s;
+}
+
+.max{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+/* Home */
+.beranda{
+    display: flex;
+    font-family: "Raleway";
+}
+.isi_beranda{
+    margin-top: 200px;
+}
+.text_pembuka{
+    font-size: 40px;
+    color: darkblue;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.button{
+    font-size: 20px;
+    color: white;
+    background: rgb(1, 38, 158);
+    border-radius: 60px;
+    padding: 20px;
+}
+
+.button:hover{
+    background: white;
+    color: rgb(1, 38, 158);
+    font-size: x-large;
+    transition: 0.5s;
+}
+
+.gambar_home{
+    width: 30%;
+    float: right;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+section{
+    padding: 160px 0;
+}
+
+
+
+
+
+/* tentang kami */
+/* salam dari rektor */
+.salamrektor{
+    width: 300px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 810px;
+}
+.textsalam{
+    font-family: "Raleway";
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+.salam_h1{
+    text-align: center;
+    text-transform:uppercase;
+}
+.sejarah_h1{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+/* sejarah */
+.sejarah_univ{
+    width: 300px;
+    margin-left: 810px;
+}
+
+.text_sejarah{
+    font-family: "Raleway";
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.section_forum{
+    text-align: center;
+}
+
+.head{
+    margin-top: 100px;
+}
+
+.head_h1{
+    text-align: center;
+    text-transform:uppercase;
+}
+
+.forum_regis_div{
+    width: 80%;
+    margin: auto;
+}
+
+label{
+    font-family: "Raleway";
+}
+
+input{
+    font-family: "Raleway";
+    width: 20%;
+    height: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(206, 206, 206, 0.726);
+    color: black;
+    font-size: 15px;
+}
+
+select{
+    font-family: "Raleway";
+    width: 20%;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(206, 206, 206, 0.726);
+    color: black;
+    font-size: 15px;
+}
+
+#kesalahan{
+    color: red;
+}
+
+.btn_kirim{
+    font-family: "Raleway";
+    width: 20%;
+    padding: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgba(206, 206, 206, 0.726);
+    color: black;
+    font-size: 15px;
+}
+
+.mhs_berprestasi{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* footer */
+.footer{
+    font-family: "Raleway";
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+.sosial_media{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sosmed_p{
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+*{font-family: "Raleway";}
+

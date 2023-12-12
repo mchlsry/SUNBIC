@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas Sunbic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="max-width">
+            <div class="logo">
+                <a href="./home.html">
+                    <img src="./assets/Logo Sunbic.png" alt="Logo Sunbic" class="logo_univ">
+                </a>
+            </div>
+            <nav id="nav">
+                <ul class="menu">
+                    <li><a href="./home.html">BERANDA</a></li>
+                    <li><a href="./about.html">TENTANG KAMI</a></li>
+                    <li><a class="active" href="./form.html">REGISTRASI</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <div>
+        <section class="section_forum">
+            <div class="head">
+                <h1 class="head_h1">siap untuk menjadi salah satu dari mahasiswa sunbic?</h1>
+                <img src="assets/mahasiswa_berprestasi.jpg" alt="mahasiswa_berprestasi" class="mhs_berprestasi">
+            </div>
+            <div class="forum_regis_div">
+                <form id="forum_regis">
+                    <br>
+                    <label for="nama_lengkap">Nama</label>
+                    <br><br>
+                    <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama Lengkap"> 
+                    <br><br>
+                    <label for="no_telp">Nomor Telepon</label>
+                    <br><br>
+                    <input type="text" name="no_telp" id="no_telp" placeholder="Cth: 081234567890"> 
+                    <br><br>
+                    <label for="email">E-mail</label>
+                    <br><br>
+                    <input type="text" name="email" id="email" placeholder="Cth: username@gmail.com"> 
+                    <br><br>
+                    <label for="pendidikan">Pendidikan</label>
+                    <br><br>
+                    <select name="pendidikan" id="pendidikan">
+                        <option value="pilih">Pilih Pendidikan</option>
+                        <option value="10sma">10 SMA/K</option>
+                        <option value="11sma">11 SMA/K</option>
+                        <option value="12sma">12 SMA/K</option>
+                        <option value="s1">S1</option>
+                        <option value="s2">S2</option>
+                        <option value="s3">S3</option>
+                    </select>
+                    <br><br>
+                    <label for="asal_sekolah">Asal Sekolah</label>
+                    <br><br>
+                    <input type="text" name="asal_sekolah" id="asal_sekolah" placeholder="Nama Sekolah"> 
+                    <br><br><br>
+                    <p id="kesalahan"><br></p>
+                    <br>
+                    <button type="submit" class="btn_kirim">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <section class="footer">
+        <div class="sosial_media">
+            <p class="sosmed_p">
+                IKUTI SOSIAL MEDIA KAMI
+            </p>
+            <a href="https://www.instagram.com/univ_sunbic/" target="_blank">
+                <img src="assets/instagram.png" alt="instagram" width="50px">
+            </a>
+            <a href="https://www.youtube.com/channel/UCekXdO5ZVlLD8VvST8k6HZQ/">
+                <img src="assets/youtube.png" alt="youtube" width="50px">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
